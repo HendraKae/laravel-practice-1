@@ -53,7 +53,7 @@
                     <p>Konsultasikan Bisnis Saya</p>
                 </button>
                 <div class="hero-scroll">
-                    <p>scroll</p>
+                    <p>Scroll</p>
                     <img class="arrow-down" src="{{ url('/assets/images/arrow_down.png') }}" />
                 </div>
             </main>
@@ -209,7 +209,6 @@
         </section>
 
         {{-- testimonials --}}
-
         <section class="testimonials">
             <div class="container">
                 <div class="header">

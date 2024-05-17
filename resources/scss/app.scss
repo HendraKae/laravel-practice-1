@@ -943,3 +943,140 @@ body {
         margin-top: 6.5%;
     }
 }
+
+@media (max-width: 1440px) {
+    .navbar {
+        .nav {
+            a {
+                margin: 16px;
+                font-size: 15pt;
+            }
+            .logo-logo {
+                width: 280px;
+                height: auto;
+                padding: 0 40px 0 61px;
+            }
+        }
+        .nav-flag {
+            .button-flag {
+                padding: 14px 18px 14px 20px;
+                gap: 0.6rem;
+                font-size: 19px;
+
+                .flag {
+                    width: 30px;
+                    height: auto;
+                }
+            }
+        }
+    }
+
+    .hero {
+        .content-hero {
+            h1 {
+                font-size: 28pt;
+                line-height: 37pt;
+            }
+
+            h2 {
+                font-size: 17pt;
+            }
+
+            .hero-scroll {
+                p {
+                    font-size: 15pt;
+                }
+            }
+
+            .cta {
+                padding: 20px 40px;
+                font-size: 23pt;
+            }
+        }
+    }
+
+    .workflow {
+        height: 140vh;
+    }
+
+    .services {
+        height: 140vh;
+        .card {
+            button {
+                p {
+                    font-size: 15pt;
+                }
+            }
+        }
+    }
+
+    .projects {
+        height: 120vh;
+        .container {
+            .content {
+                .item {
+                    width: 1300px;
+                    height: auto;
+                }
+
+                .item__img img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    padding: 3rem;
+                    border-radius: 80pt;
+                }
+            }
+        }
+    }
+
+    .testimonials {
+        .container {
+            .content {
+                .wrapper-slide {
+                    .item__img {
+                        width: 100%;
+                        height: auto;
+                    }
+
+                    .item__img img {
+                        position: relative;
+                        right: -35%;
+                        width: 70%;
+                        height: 100%;
+                        object-fit: cover;
+                        padding: 3rem;
+                        border-radius: 100pt 0px 0px 100pt;
+                    }
+
+                    .wrapper {
+                        .item {
+                            top: 500%;
+                            .btn-swiper {
+                                .item__prev {
+                                    padding: 3rem 3.2rem;
+                                    border-radius: 50px 0 0 50px;
+                                    left: 30%;
+                                }
+
+                                .item__next {
+                                    padding: 3rem 3.2rem;
+                                    border-radius: 0 50px 50px 0;
+                                    left: 40%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .contact {
+        height: 120vh;
+    }
+
+    .footer {
+        height: 120vh;
+    }
+}
