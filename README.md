@@ -21,5 +21,5 @@ Here are a few tips on how to use this project :
 -   $ php artisan migrate
 -   $ npm install
 -   $ npm run build
--   % npm run dev
+-   $ npm run dev
 -   $ php artisan serve
