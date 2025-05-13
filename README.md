@@ -11,6 +11,11 @@
 
 This website is a Frontend project developed using Laravel 11 and SASS. With Blade and SCSS, it includes a herosection, workflow, services, projects, testimonial, contact, and footer.
 
+🎯 A static landing page built based on a fixed-size design using [HTML/CSS | Tailwind | Laravel Blade | etc.].
+⚠️ This project is non-responsive, as the original design was not made for different screen sizes.
+🛠️ Created for frontend layout and slicing practice purposes.
+
+
 Here are a few tips on how to use this project :
 
 -   $ git clone https://github.com/HendraKae/testORDOAPP
